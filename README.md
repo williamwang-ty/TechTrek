@@ -89,7 +89,7 @@ Plus:
 
 - Programming Paradigm
   - [Classic SICP](./fundamentals/Programming/Classic-SICP): MIT 6.001: Structure and Interpretation of Computer Programs
-  - [SICP with Python](./fundamentals/Programming/SICP-with-Python): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
+  - [SICP with Python](./fundamentals/Programming/SICP-with-Python/UCB-CS61A.md): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
   - [C-intro](./fundamentals/Programming/C-intro): Duke and Coursera: Introductory C Programming Specialization
   - [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
   - [Safety in System Programming with Rust](./fundamentals/Programming/Safety-in-System-Programming-with-Rust): Stanford, CS110L: Safety in System Programming
