@@ -1,4 +1,4 @@
-# HHKB keyboard
+# Keyboard and Keymap
 
 ## Why HHKB?
 

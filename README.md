@@ -12,7 +12,7 @@ Notes on tech craftmanship
 
 ### IDE & Editors
 
-#### [HHKB keyboard & Karabiner-Elements](./tools/HHKB.md)
+#### [Keyboard & Keymap](./tools/HHKB.md)
 
 #### [VSCode](./tools/VSCode)
 
