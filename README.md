@@ -6,13 +6,13 @@ Notes on tech craftmanship
 
 ### Basics
 
-- [MIT-Missing-Semester](./tools/MIT-Missing-Semester)
+- [MIT-Missing-Semester](./tools/MIT-Missing-Semester.md)
   - This course will introduce extremely important toolsfor every CS workers. For example, Shell programming, command-line configuration, Git, Vim, tmux, ssh, and more.
   - Estimated Study Time: 10 hours
 
 ### IDE & Editors
 
-#### [HHKB keyboard & Karabiner-Elements](./tools/HHKB)
+#### [HHKB keyboard & Karabiner-Elements](./tools/HHKB.md)
 
 #### [VSCode](./tools/VSCode)
 
