@@ -38,6 +38,116 @@ Notes on tech craftmanship
 
 #### DevOps
 
+## Fundamentals
+
+### Short List
+
+- [Classic SICP](./fundamentals/Programming/Classic-SICP): MIT 6.001: Structure and Interpretation of Computer Programs
+- [Machine Structure](./fundamentals/Computer-Science/Machine-Structure): Coursera: Nand2Tetris
+- [Algorithm in Java](./fundamentals/Programming/Algorithm-in-Java): Princeton, Coursera: Algorithms I & II
+- [Computer Network](./fundamentals/Computer-Science/Computer-Network): UMASS, Computer Networking: A Top-Down Approach
+- [Personal Software Process](./fundamentals/Programming/Personal-Software-Process): MIT 6.031: Software Construction
+- [Database implementation](./fundamentals/Computer-Science/Database-implementation): CMU 15-445: Database Systems
+- [AI 101](./fundamentals/AI/AI-101): Harvard CS50: Introduction to AI with Python
+- [Deep Learning 101](./fundamentals/AI/Deep-Learning-101): Coursera: Deep Learning
+
+Plus:
+
+- [Discrete and Probability](./fundamentals/Math-and-CS-Theory/Discrete-and-Probability): MIT 6.042: Mathematics for Computer Science
+- [Computer System](./fundamentals/Computer-Science/Computer-System): CMU CS15213: CSAPP
+- [C-intro](./fundamentals/Programming/C-intro): Duke and Coursera: Introductory C Programming Specialization
+- [Safety in System Programming with Rust](./fundamentals/Programming/Safety-in-System-Programming-with-Rust): Stanford, CS110L: Safety in System Programming
+- [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
+- [Compiler intro](./fundamentals/Computer-Science/Compiler-intro):PKU, Compiler Priciple and practice
+- [Algorithm enhanced](./fundamentals/Programming/Algorithm-enhanced): MIT 6.046: Design and Analysis of Algorithms(Python)
+- [If C++](./fundamentals/Programming/If-C++): Stanford, CS106L: Standard C++ Programming
+
+### Math and CS Theory
+
+- Calculus & Linear Algebra
+  - [Calculus](./fundamentals/Math-and-CS-Theory/Calculus):
+    - MIT 18.01: Single Variable Calculus
+    - MIT 18.02: Multivariable Calculus
+    - 3Blue1Brown: Essence of Calculus
+  - [Linear Algebra](./fundamentals/Math-and-CS-Theory/Linear-Algebra):
+    - MIT 18.06: Linear Algebra
+  
+- Discrete Mathematics, Probability and Statistics
+  - [Discrete and Probability](./fundamentals/Math-and-CS-Theory/Discrete-and-Probability):
+    - MIT 6.042: Mathematics for Computer Science
+    - UCB CS70 : discrete Math and probability theory
+  - [Probability and Random Process](./fundamentals/Math-and-CS-Theory/Probability-and-Random-Process):
+    - UCB CS126 : Probability theory
+
+- Information Theory
+  - [Information Theory](./fundamentals/Math-and-CS-Theory/Information-Theory): MIT6.050J: Information theory and Entropy
+
+- Signal and System
+  - [Signal and System](./fundamentals/Math-and-CS-Theory/Signal-and-System): MIT 6.007 Signals and Systems
+
+### Programming
+
+- Programming Paradigm
+  - [Classic SICP](./fundamentals/Programming/Classic-SICP): MIT 6.001: Structure and Interpretation of Computer Programs
+  - [SICP with Python](./fundamentals/Programming/SICP-with-Python): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
+  - [C-intro](./fundamentals/Programming/C-intro): Duke and Coursera: Introductory C Programming Specialization
+  - [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
+  - [Safety in System Programming with Rust](./fundamentals/Programming/Safety-in-System-Programming-with-Rust): Stanford, CS110L: Safety in System Programming
+  - [If C++](./fundamentals/Programming/If-C++): Stanford, CS106L: Standard C++ Programming
+
+- Algorithm and Data Structure
+  - [Algorithm in Java](./fundamentals/Programming/Algorithm-in-Java): Princeton, Coursera: Algorithms I & II
+  - [Algorithm in Python](./fundamentals/Programming/Algorithm-in-Python): MIT 6.006: Introduction to Algorithms
+  - [Algorithm enhanced](./fundamentals/Programming/Algorithm-enhanced): MIT 6.046: Design and Analysis of Algorithms(Python)
+
+- software engineering
+  - [Personal Software Process](./fundamentals/Programming/Personal-Software-Process): MIT 6.031: Software Construction
+  - [Software Engineering](./fundamentals/Programming/Software-Engineering): UCB CS169: software engineering (Agile Development)
+
+### Computer Science
+
+- System Basics
+  - [Machine Structure](./fundamentals/Computer-Science/Machine-Structure): Coursera: Nand2Tetris
+  - [Computer System](./fundamentals/Computer-Science/Computer-System): CMU CS15213: CSAPP
+  - [Computer Network](./fundamentals/Computer-Science/Computer-Network): UMASS, Computer Networking: A Top-Down Approach
+
+- System Design
+  - [System Engineering](./fundamentals/Computer-Science/System-Engineering): MIT 6.033: System Engineering
+  - [System Engineering](./fundamentals/Computer-Science/System-Engineering): Stanford, CS110: Principles of Computer Systems
+
+- Operating System
+  - [Hardcore Operating System](./fundamentals/Computer-Science/Hardcore-Operating-System): UC Berkeley, CS162: Operating Systems
+
+- Parallel and Distributed System
+  - [Concurrent Programming](./fundamentals/Computer-Science/Concurrent-Programming): KAIST, CS431: Concurrent Programming
+  - [Parallel Computing](./fundamentals/Computer-Science/Parallel-Computing): CMU 15-418/Stanford CS149: Parallel Computing
+  - [Distributed System](./fundamentals/Computer-Science/Distributed-System): MIT 6.824: Distributed Systems
+
+- Database and Data Science
+  - [Database implementation](./fundamentals/Computer-Science/Database-implementation):
+    - CMU 15-445: Database Systems
+    - Stanford CS 346: Database System Implementation
+  - [Data Science](./fundamentals/Computer-Science/Data-Science):UCB Data100: Principles and Techniques of Data Science
+  - [Data Mining](./fundamentals/Computer-Science/Data-Mining): Stanford, CS246: Mining Massive Data Sets
+
+- Compiler and programming language theory
+  - [Compiler intro](./fundamentals/Computer-Science/Compiler-intro):PKU, Compiler Priciple and practice
+  - [Dragon book](./fundamentals/Computer-Science/Dragon-book): Stanford CS143: Compilers
+  - [Programming Language Theory](./fundamentals/Computer-Science/Programming-Language-Theory): Stanford, CS242 Programming Languages
+
+- Computer Security
+  - [Computer Security](./fundamentals/Computer-Science/Computer-Security): UCB CS161: Computer Security
+
+### AI
+
+- AI basics
+  - [AI 101](./fundamentals/AI/AI-101): Harvard CS50: Introduction to AI with Python
+  - [AI 102](./fundamentals/AI/AI-102): UCB CS188: Introduction to Artificial Intelligence
+- Machine Learning
+  - [Machine Learning 101](./fundamentals/AI/Machine-Learning-101): Coursera: Machine Learning
+- Deep Learning
+  - [Deep Learning 101](./fundamentals/AI/Deep-Learning-101): Coursera: Deep Learning
+
 ## Skill Tracks
 
 ### AI/Data Science & Engineering
@@ -157,114 +267,5 @@ Notes on tech craftmanship
 - Introduction to Agile Development and Scrum
 - Product Management: Capstone Project
 - Practice Exam for AIPMM Certified Product Manager (CPM)
-
-## Fundamentals
-
-### Short List
-
-- [SICP with Python](./fundamentals/Programming/SICP-with-Python): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
-- [Machine Structure](./fundamentals/Computer-Science/Machine-Structure): Coursera: Nand2Tetris
-- [Algorithm in Java](./fundamentals/Programming/Algorithm-in-Java): Princeton, Coursera: Algorithms I & II
-- [Discrete and Probability](./fundamentals/Math-and-CS-Theory/Discrete-and-Probability): MIT 6.042: Mathematics for Computer Science
-- [Computer Network](./fundamentals/Computer-Science/Computer-Network): UMASS, Computer Networking: A Top-Down Approach
-- [Personal Software Process](./fundamentals/Programming/Personal-Software-Process): MIT 6.031: Software Construction
-- [Database implementation](./fundamentals/Computer-Science/Database-implementation): CMU 15-445: Database Systems
-- [AI 101](./fundamentals/AI/AI-101): Harvard CS50: Introduction to AI with Python
-- [Deep Learning 101](./fundamentals/AI/Deep-Learning-101): Coursera: Deep Learning
-
-Plus:
-
-- [Computer System](./fundamentals/Computer-Science/Computer-System): CMU CS15213: CSAPP
-- [C-intro](./fundamentals/Programming/C-intro): Duke and Coursera: Introductory C Programming Specialization
-- [Safety in System Programming with Rust](./fundamentals/Programming/Safety-in-System-Programming-with-Rust): Stanford, CS110L: Safety in System Programming
-- [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
-- [Compiler intro](./fundamentals/Computer-Science/Compiler-intro):PKU, Compiler Priciple and practice
-- [Algorithm enhanced](./fundamentals/Programming/Algorithm-enhanced): MIT 6.046: Design and Analysis of Algorithms(Python)
-- [If C++](./fundamentals/Programming/If-C++): Stanford, CS106L: Standard C++ Programming
-
-### Math and CS Theory
-
-- Calculus & Linear Algebra
-  - [Calculus](./fundamentals/Math-and-CS-Theory/Calculus):
-    - MIT 18.01: Single Variable Calculus
-    - MIT 18.02: Multivariable Calculus
-    - 3Blue1Brown: Essence of Calculus
-  - [Linear Algebra](./fundamentals/Math-and-CS-Theory/Linear-Algebra):
-    - MIT 18.06: Linear Algebra
-  
-- Discrete Mathematics, Probability and Statistics
-  - [Discrete and Probability](./fundamentals/Math-and-CS-Theory/Discrete-and-Probability):
-    - MIT 6.042: Mathematics for Computer Science
-    - UCB CS70 : discrete Math and probability theory
-  - [Probability and Random Process](./fundamentals/Math-and-CS-Theory/Probability-and-Random-Process):
-    - UCB CS126 : Probability theory
-
-- Information Theory
-  - [Information Theory](./fundamentals/Math-and-CS-Theory/Information-Theory): MIT6.050J: Information theory and Entropy
-
-- Signal and System
-  - [Signal and System](./fundamentals/Math-and-CS-Theory/Signal-and-System): MIT 6.007 Signals and Systems
-
-### Programming
-
-- Programming Paradigm
-  - [SICP with Python](./fundamentals/Programming/SICP-with-Python): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
-  - [C-intro](./fundamentals/Programming/C-intro): Duke and Coursera: Introductory C Programming Specialization
-  - [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
-  - [Safety in System Programming with Rust](./fundamentals/Programming/Safety-in-System-Programming-with-Rust): Stanford, CS110L: Safety in System Programming
-  - [If C++](./fundamentals/Programming/If-C++): Stanford, CS106L: Standard C++ Programming
-
-- Algorithm and Data Structure
-  - [Algorithm in Java](./fundamentals/Programming/Algorithm-in-Java): Princeton, Coursera: Algorithms I & II
-  - [Algorithm in Python](./fundamentals/Programming/Algorithm-in-Python): MIT 6.006: Introduction to Algorithms
-  - [Algorithm enhanced](./fundamentals/Programming/Algorithm-enhanced): MIT 6.046: Design and Analysis of Algorithms(Python)
-
-- software engineering
-  - [Personal Software Process](./fundamentals/Programming/Personal-Software-Process): MIT 6.031: Software Construction
-  - [Software Engineering](./fundamentals/Programming/Software-Engineering): UCB CS169: software engineering (Agile Development)
-
-### Computer Science
-
-- System Basics
-  - [Machine Structure](./fundamentals/Computer-Science/Machine-Structure): Coursera: Nand2Tetris
-  - [Computer System](./fundamentals/Computer-Science/Computer-System): CMU CS15213: CSAPP
-  - [Computer Network](./fundamentals/Computer-Science/Computer-Network): UMASS, Computer Networking: A Top-Down Approach
-
-- System Design
-  - [System Engineering](./fundamentals/Computer-Science/System-Engineering): MIT 6.033: System Engineering
-  - [System Engineering](./fundamentals/Computer-Science/System-Engineering): Stanford, CS110: Principles of Computer Systems
-
-- Operating System
-  - [Hardcore Operating System](./fundamentals/Computer-Science/Hardcore-Operating-System): UC Berkeley, CS162: Operating Systems
-
-- Parallel and Distributed System
-  - [Concurrent Programming](./fundamentals/Computer-Science/Concurrent-Programming): KAIST, CS431: Concurrent Programming
-  - [Parallel Computing](./fundamentals/Computer-Science/Parallel-Computing): CMU 15-418/Stanford CS149: Parallel Computing
-  - [Distributed System](./fundamentals/Computer-Science/Distributed-System): MIT 6.824: Distributed Systems
-
-- Database and Data Science
-  - [Database implementation](./fundamentals/Computer-Science/Database-implementation):
-    - CMU 15-445: Database Systems
-    - Stanford CS 346: Database System Implementation
-  - [Data Science](./fundamentals/Computer-Science/Data-Science):UCB Data100: Principles and Techniques of Data Science
-  - [Data Mining](./fundamentals/Computer-Science/Data-Mining): Stanford, CS246: Mining Massive Data Sets
-
-- Compiler and programming language theory
-  - [Compiler intro](./fundamentals/Computer-Science/Compiler-intro):PKU, Compiler Priciple and practice
-  - [Dragon book](./fundamentals/Computer-Science/Dragon-book): Stanford CS143: Compilers
-  - [Programming Language Theory](./fundamentals/Computer-Science/Programming-Language-Theory): Stanford, CS242 Programming Languages
-
-- Computer Security
-  - [Computer Security](./fundamentals/Computer-Science/Computer-Security): UCB CS161: Computer Security
-
-### AI
-
-- AI basics
-  - [AI 101](./fundamentals/AI/AI-101): Harvard CS50: Introduction to AI with Python
-  - [AI 102](./fundamentals/AI/AI-102): UCB CS188: Introduction to Artificial Intelligence
-- Machine Learning
-  - [Machine Learning 101](./fundamentals/AI/Machine-Learning-101): Coursera: Machine Learning
-- Deep Learning
-  - [Deep Learning 101](./fundamentals/AI/Deep-Learning-101): Coursera: Deep Learning
 
 ### Other
