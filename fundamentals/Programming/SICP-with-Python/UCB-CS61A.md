@@ -24,10 +24,10 @@ Both couses are known for being challenging.
 
 ### Information
 
-Prerequisites: None
-Programming Languages: Python, Scheme, SQL
-Difficulty: 🌟🌟
-Class Hour: 50 hours
+- Prerequisites: None
+- Programming Languages: Python, Scheme, SQL
+- Difficulty: 🌟🌟
+- Class Hour: 50 hours
 
 ### Course Resources
 
