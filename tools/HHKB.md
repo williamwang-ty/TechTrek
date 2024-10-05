@@ -56,8 +56,39 @@ My preferred settings:
 - backspace recovery: SW5: up
 - bluetooth sleep off: SW6: up
 
-## Karabiner-Elements
+## Customized keyboard layout
+
+### My preferred settings
+
+- Caps Lock key -> left control key: for vim and emacs
+- right Shift key -> Caps Lock key: Switch input method, especially for chinese input.
+
+### Software vs Hardware customization
+
+- Software: Karabiner-Elements
+  - Pros:
+    - more compatible: support more keyboards
+    - more powerful, can implement more complicated rules
+  - Cons:
+    - saved settings are not easy to transfer between different machines
+    - complicated, need to setup rules
+- Hardware: GMK/VIA or HHKB Tool
+  - Pros:
+    - stored in keyboard, easy to transfer between different machines
+    - set with UI, more convenient
+  - Cons:
+    - less compatible: only support in few keyboards
+
+### Karabiner-Elements
 
 - Karabiner-Elements is the tool for customizing keyboard layout, the doc is [here](https://karabiner-elements.pqrs.org/docs).
-- My preferred settings:
-  - right Shift key -> Caps Lock key: Switch input method, especially for chinese input.
+
+### HHKB Keymap Tool
+
+- use dip switches to set keyboard layout
+- use UI to set keyboard layout:
+  - access the [website](https://happyhackingkb.com/download/#tl)
+- types support keymap tools:
+  - Hybrid type-s
+  - Hybrid
+  - Studio (not topre switch): full support GMK/VIA
