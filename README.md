@@ -2,6 +2,23 @@
 
 Notes on tech craftmanship
 
+## Section 1-1
+
+- IBM Data Science Professional Certificate
+- [MIT-Missing-Semester](./tools/MIT-Missing-Semester.md)
+
+## Section 1-2
+
+- IBM AI Developer Professional Certificate
+- Programming Paradigm
+  - [SICP with Python](./fundamentals/Programming/SICP-with-Python/UCB-CS61A.md): UC Berkeley, CS61A: Structure and Interpretation of Computer Programs
+  - [Classic SICP](./fundamentals/Programming/Classic-SICP): MIT 6.001: Structure and Interpretation of Computer Programs
+
+## Section 1-3
+
+- [Algorithm in Java](./fundamentals/Programming/Algorithm-in-Java): Princeton, Coursera: Algorithms I & II
+- [Modern SICP in Functional Programming](./fundamentals/Programming/Modern-SICP-in-Functional-Programming): Cornell, CS3110：OCaml Programming Correct + Efficient + Beautiful
+  
 ## Tools
 
 ### Basics

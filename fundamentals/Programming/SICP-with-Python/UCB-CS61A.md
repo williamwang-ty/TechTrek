@@ -33,7 +33,7 @@ Both couses are known for being challenging.
 
 Course Website:
 
-- [Textbook:](https://www.composingprograms.com/) read before watching the videos
+- [Textbook:](https://www.composingprograms.com/) read before watching the videos, [中文版](https://composingprograms.netlify.app/), [中文版@github](https://github.com/csfive/composing-programs-zh/blob/main/sicp/1/1.md)
 - Course Website spring2024: [backup1](https://www.learncs.site/docs/curriculum-resource/cs61a)
 - [Video(sp2024)@youtube](https://www.youtube.com/watch?v=gNv81_4X0uU); [backup @bilibili](https://www.bilibili.com/video/BV1wSTUeJEwK?p=1&vd_source=78a81bc0930f2323ef18a91bf693abfe)
   
