@@ -60,8 +60,8 @@ My preferred settings:
 
 ### My preferred settings
 
-- Caps Lock key -> left control key: for vim and emacs
-- right Shift key -> Caps Lock key: Switch input method, especially for chinese input.
+- Caps Lock key -> left control key: for vim and emacs, default in HHKB
+- right Option key -> Caps Lock key: Switch input method, especially for chinese input.
 
 ### Software vs Hardware customization
 
@@ -82,6 +82,11 @@ My preferred settings:
 ### Karabiner-Elements
 
 - Karabiner-Elements is the tool for customizing keyboard layout, the doc is [here](https://karabiner-elements.pqrs.org/docs).
+- Setting:
+  - For HHKB: no change, use HHKB keymap tools, for PC compatible(HHKB keyboard can be used in any PC in unique layout without setup)
+  - For Other keyboards in Mac:
+    - Caps Lock key -> left control key
+    - right Option key -> Caps Lock key
 
 ### HHKB Keymap Tool
 
