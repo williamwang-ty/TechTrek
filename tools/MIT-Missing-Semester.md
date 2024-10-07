@@ -15,4 +15,6 @@ Resources：
 - [中文](https://missing-semester-cn.github.io/)
 - [Course Video](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 
-[Notes](https://github.com/Lance0213/missing-semester-notes)  
+## Notes
+
+### [Class 1 : Shell](./missing-class-1-shell.md)
