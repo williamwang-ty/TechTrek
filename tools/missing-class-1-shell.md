@@ -152,10 +152,7 @@ Append content at the end of file
 ### terminal app
 
 - Iterm2 in macOS
-- Color setting:
-  - Background  color: black
-  - Front color: green
-  - Font: source code pro
+  - [Powerlevel10K setup](https://www.josean.com/posts/terminal-setup): setup Powerlevel10K theme, very awesome
 
 ## Exercises
 
