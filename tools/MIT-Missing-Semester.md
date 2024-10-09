@@ -17,4 +17,5 @@ Resources：
 
 ## Notes
 
-### [Class 1 : Shell](./missing-class-1-shell.md)
+- [Class 1 : Shell](./missing-class-1-shell.md)
+- [Class 2: Shell script](./missing-class-2-shell_script.md)

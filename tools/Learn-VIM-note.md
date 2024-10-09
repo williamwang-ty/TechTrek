@@ -42,7 +42,8 @@ Normal mode:
 ## chords and melodies
 
 Chords: typing a combination of keys at the same time.
-Melodies: a series of keys pressed one another
+
+Melodies: a series of keys pressed one another.
 
 ## motion
 
@@ -146,25 +147,26 @@ Pattern: regex
 
 #### useful operators
 
-`c`: change, delete  the text and send you into insert mode;
-`d`: delete
+- `c`: change, delete  the text and send you into insert mode;
+- `d`: delete
+- `r`: replace a char without leaving normal mode
 
-`y`: yank(copy)
-`p`: paste
+- `y`: yank(copy)
+- `p`: paste
 
-`>`: add indentation
-`<`: removes indentation
-`=`: format
+- `>`: add indentation
+- `<`: removes indentation
+- `=`: format
 
-`g~`: switch case
-`gU`: switch into uppercase
-`gu`: switch into lowercase
-`~`: switch case for a single character
+- `g~`: switch case
+- `gU`: switch into uppercase
+- `gu`: switch into lowercase
+- `~`: switch case for a single character
 
-`.`: repeat the last change,  combine with repeat search commands(; , n N).
+- `.`: repeat the last change,  combine with repeat search commands(; , n N).
 
-`u`: undo the last change
-`CTRL-R`: redo
+- `u`: undo the last change
+- `CTRL-R`: redo
 
 #### shorthand syntax
 
