@@ -145,3 +145,135 @@ Notice:
 - It is good practice to write shebang lines using the [`env`](https://www.man7.org/linux/man-pages/man1/env.1.html) command that will resolve to wherever the command lives in the system.Ex: `#!/usr/bin/env python`.
 
 - Functions are executed in the current shell environment whereas scripts execute in their own process. Thus, functions can modify environment variables, whereas scripts can't. Scripts will be passed by value environment variables that have been exported using [`export`](https://www.man7.org/linux/man-pages/man1/export.1p.html)
+
+## Useful shell commands
+
+### Finding how to use commands
+
+- `-h`, `--help`
+- `man`
+- `TLDR` shows the use case of a command, need to download
+
+### Finding files
+
+#### `find`
+
+`find` will recursively search for files matching some criteria
+
+```bash
+TLDR find
+```
+
+```bash
+# Find files by extension:
+find root_path -name '*.ext' -type f
+
+# Find files matching multiple path/name patterns:
+find root_path -path '**/path/**/*.ext' -or -name '*pattern*'
+
+# Find directories matching a given name, in case-insensitive mode:
+find root_path -type d -iname '*lib*'
+
+# Find files matching a given pattern, excluding specific paths:
+find root_path -name '*.py' -not -path '*/site-packages/*'
+
+# Find files matching a given size range, limiting the recursive depth to "1":
+find root_path -maxdepth 1 -size +500k -size -10M
+```
+
+`find` can also perform actions over files that match your query.
+
+```bash
+# Run a command for each file (use `{}` within the command to access the filename):
+find root_path -name '*.ext' -exec wc -l {} \;
+
+# Find all files modified today and pass the results to a single command as arguments:
+find root_path -daystart -mtime -1 -exec tar -cvf archive.tar {} \+
+
+# Find empty files (0 byte) or directories and delete them verbosely:
+find root_path -type f|d -empty -delete -print
+```
+
+#### `fd`
+
+`fd` is a simple, fast and user-friendly altenative to `find`
+
+```bash
+tldr fd
+
+# Recursively find files matching a specific pattern in the current directory:
+fd "string|regex"
+
+# Find files that begin with `foo`:
+fd "^foo"
+
+# Find files with a specific extension:
+fd --extension txt
+
+# Find files in a specific directory:
+fd "string|regex" path/to/directory
+
+# Include ignored and hidden files in the search:
+fd --hidden --no-ignore "string|regex"
+
+# Execute a command on each search result returned:
+fd "string|regex" --exec command
+```
+
+#### `locate`
+
+- `find` perform a real-time search by traversing the file system; it is slow but the result is latest
+- `locate` perform a search in a pre-built database containing file index data; it is very fast but the result is not always up-to-date
+
+### Finding code
+
+#### `grep`
+
+`grep` to search base on the content, it is a generic tool for matching patterns from the input text.
+`grep` is useful in data wrangling.
+
+```bash
+# -C: show content around the matched line, +-2 lines
+grep -C 2 "error" file.txt
+
+# -v: inverting the match, lines not inclue "debug"
+grep -v "debug" file.txt
+
+# -r: recursively search files in dir and sub dir
+grep -r "function" .
+
+# combine the flag:recursively search dir, output *.py files which not including "test", show +- 3 lines matched
+grep -rvC 3 "test" *.py
+```
+
+#### `rg`
+
+`grep` alternatives include `ack`, `ag`, `rg`
+
+```bash
+# Find all python files where I used the requests library
+rg -t py 'import requests'
+# Find all files (including hidden files) without a shebang line
+rg -u --files-without-match "^#\!"
+# Find all matches of foo and print the following 5 lines
+rg foo -A 5
+# Print statistics of matches (# of matched lines and files )
+rg --stats PATTERN
+```
+
+### Finding shell commands
+
+- `up` arrow will give you back your last command
+- `history` command will print your shell history to the standard output; `history | grep` will search for pattern.
+- `<C-r>`: input a string to match in the command history
+- `fzf` is a general-purpose fuzzy finder that can be used with many commands, `fsf` need to be installed
+- history-base autosuggection is useful, recommen to install `Oh My Zsh`, and enable the `zsh-autosuggections`in it
+
+### Directory Navigation
+
+- writing shell alias or creating symlinks with `ln -s`
+- For finding frequent and recent files and dirs, `fasd` ranks files and dirs by frecency, that is, both frequency and recency
+- overview the dir structure: `tree`, `broot`
+- full fledged file managers `nnn`, `ranger`
+
+## Exercises
