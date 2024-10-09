@@ -31,6 +31,11 @@ Notes on tech craftmanship
 
 #### [Keyboard & Keymap](./tools/HHKB.md)
 
+#### VIM
+
+- [Learn VIM note](./tools/Learn-VIM-note.md)
+- [Pratical VIM note](./tools/Pratical-VIM-note.md)
+
 #### [VSCode](./tools/VSCode)
 
 #### [Doom Emacs](./tools/Doom-Emacs)
@@ -41,19 +46,21 @@ Notes on tech craftmanship
 
 #### IDE comparison
 
-### Git and Github
+#### Git and Github
 
-### Make tools
+#### Make tools
 
-#### PC environment setup
+### PC environment setup
 
-#### Server environment setup
+- Shell
+
+### Server environment setup
 
 - Linux
   - [Linux basics](./tools/Linux-basics): UCB: Sysadmin DeCal
 - Docker
 
-#### DevOps
+### DevOps
 
 ## Fundamentals
 
